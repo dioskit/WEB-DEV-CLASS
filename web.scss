@@ -4,8 +4,19 @@ h1{
 }
 body{
     text-align: center;
-    background-color: black;
-    color: whitesmoke;
+    background-color: $color-five;
+    color: $color-two;
+    font-size: 16px; // Default font size for all screens
+
+    @media (min-width: 600px) and (max-width: 1023px) {
+        // Tablet styles
+        font-size: 18px; // Adjust font size for tablets
+    }
+
+    @media (min-width: 1024px) {
+        // Desktop styles
+        font-size: 20px; // Adjust font size for desktops
+    }
     img{
         align-self: center;
         height:auto;
@@ -16,6 +27,25 @@ body{
             h2{
                 color: grey;
             }
+        }
+    }
+}
+.about {
+    text-align: center;
+
+    h2 {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    p {
+        max-width: 800px; // Set the maximum width for the p element
+        margin: 0 auto; // Center-align the paragraph horizontally
+
+        @media (max-width: 599px) {
+            // Mobile styles
+            max-width: 100%; // Allow the element to take the full width of the viewport
+            text-decoration: none; // Remove underline for mobile
+            text-shadow: none; // Remove text shadow for mobile
         }
     }
 }
