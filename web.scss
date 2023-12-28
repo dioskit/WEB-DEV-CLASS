@@ -29,6 +29,20 @@ body{
             }
         }
     }
+    #quote {
+        color: $color-three;
+        font-family: Arial, Helvetica, sans-serif;
+        max-width: 800px; // Set the maximum width for the #quote element
+        margin: 0 auto; // Center-align the quote horizontally
+
+        @media (max-width: 599px) {
+            // Mobile styles
+            max-width: 100%; // Allow the element to take the full width of the viewport
+            text-decoration: none; // Remove underline for mobile
+            text-shadow: none; // Remove text shadow for mobile
+  
+        }
+    }
 }
 .about {
     text-align: center;
