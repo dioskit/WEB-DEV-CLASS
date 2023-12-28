@@ -1,8 +1,7 @@
-h2{
-    color: wheat;
+h1 {
+  color: grey;
+}
 
-}
-body{
-    background-color:#1c1e21;
-    font-size: large;
-}
+body {
+  background-color: black;
+}/*# sourceMappingURL=web.css.map */
