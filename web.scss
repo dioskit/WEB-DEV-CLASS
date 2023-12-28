@@ -1,11 +1,25 @@
+
 h1{
-    color: grey;
+    color: white;
 }
 body{
+    text-align: center;
     background-color: black;
     color: whitesmoke;
     img{
         align-self: center;
         height:auto;
+    }
+    div{
+        table-layout: auto;
+        #Hlinks{
+            align-self: right;
+        }
+        section{
+            align-self: center;
+            h2{
+                color: grey;
+            }
+        }
     }
 }
