@@ -11,12 +11,6 @@ body img {
   align-self: center;
   height: auto;
 }
-body div {
-  table-layout: auto;
-}
-body div #Hlinks {
-  align-self: right;
-}
 body div section {
   align-self: center;
 }
