@@ -4,4 +4,9 @@ h1 {
 
 body {
   background-color: black;
+  color: whitesmoke;
+}
+body img {
+  align-self: center;
+  height: auto;
 }/*# sourceMappingURL=web.css.map */
