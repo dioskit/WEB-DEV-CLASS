@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&family=Orbitron:wght@500&family=Rubik+Scribble&display=swap");
+body {
+  margin: 0px;
+  padding: 0px;
+  background-image: url(images/backgrnd.jpeg);
+  color: whitesmoke;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: large;
+  font-family: "Figtree", Orbitron;
+}
+.header h1 {
+  align-self: flex-start;
+}
+.header h2 {
+  align-self: flex-end;
+}
+
+.map {
+  border-radius: 3px;
+  align-self: center;
+  display: flex;
+  justify-content: space-around;
+}
+.map img {
+  height: 450px;
+  width: 253px;
+}
+
+.live-now {
+  background-color: rgba(128, 128, 128, 0.5);
+  border-radius: 1px;
+  display: grid;
+  padding: 0px;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  grid-template-columns: auto auto;
+}
+
+.space {
+  height: 250px;
+  background-color: rgba(170, 223, 222, 0.5);
+}
+
+.up-comming {
+  display: grid;
+  padding: 0px;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  grid-template-columns: auto auto;
+}
+
+#event {
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  height: 150px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#event #info-box {
+  text-align: left;
+  padding: 5px;
+  margin: 5px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+#event img {
+  border-radius: 2px;
+  height: 180px;
+  width: 180px;
+}/*# sourceMappingURL=map_stylr.css.map */

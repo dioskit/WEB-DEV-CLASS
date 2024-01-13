@@ -1,19 +1,4 @@
-h1 {
-  color: white;
-}
-
-body {
-  text-align: center;
-  background-color: black;
-  color: whitesmoke;
-}
-body img {
-  align-self: center;
-  height: auto;
-}
-body div section {
-  align-self: center;
-}
-body div section h2 {
-  color: grey;
+* {
+  margin: 0px;
+  padding: 0px;
 }/*# sourceMappingURL=web.css.map */
