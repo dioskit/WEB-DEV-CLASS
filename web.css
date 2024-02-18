@@ -1,19 +1,64 @@
-h1 {
-  color: white;
+.smove {
+  display: flex;
 }
 
-body {
-  text-align: center;
-  background-color: black;
-  color: whitesmoke;
+.slide {
+  width: 100%;
+  flex-shrink: 0;
+  background-color: grey;
 }
-body img {
-  align-self: center;
-  height: auto;
+
+.swarp {
+  width: 100%;
+  overflow: hidden;
+  height: 100px;
 }
-body div section {
-  align-self: center;
+
+.smove {
+  position: relative;
+  top: 0;
+  right: 0;
 }
-body div section h2 {
-  color: grey;
+
+@keyframes slideh {
+  0% {
+    right: 0;
+  }
+  15% {
+    right: 0%;
+  }
+  20% {
+    right: 100%;
+  }
+  35% {
+    right: 100%;
+  }
+  40% {
+    right: 200%;
+  }
+  55% {
+    right: 200%;
+  }
+  60% {
+    right: 300%;
+  }
+  75% {
+    right: 300%;
+  }
+  80% {
+    right: 400%;
+  }
+  95% {
+    right: 400%;
+  }
+  100% {
+    right: 0%;
+  }
+}
+.smove {
+  animation: slideh linear 15s infinite;
+}
+
+.smove:hover {
+  animation-play-state: paused;
 }/*# sourceMappingURL=web.css.map */

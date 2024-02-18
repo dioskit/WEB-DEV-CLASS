@@ -1,75 +1,39 @@
-
-h1{
-    color: white;
+.smove{
+    display:flex;
 }
-body{
-    text-align: center;
-    background-color: $color-five;
-    color: $color-two;
-    font-size: 16px; // Default font size for all screens
-
-    @media (min-width: 600px) and (max-width: 1023px) {
-        // Tablet styles
-        font-size: 18px; // Adjust font size for tablets
-    }
-
-    @media (min-width: 1024px) {
-        // Desktop styles
-        font-size: 20px; // Adjust font size for desktops
-    }
-    img{
-        width: clamp(250px,50%,400px);
-        align-self: center;
-        height:auto;
-    }
-    div{
-        section{
-            align-self: center;
-            h2{
-                color: grey;
-            }
-        }
-    }
-    #quote {
-        color: $color-three;
-        font-family: Arial, Helvetica, sans-serif;
-        max-width: 800px; // Set the maximum width for the #quote element
-        margin: 0 auto; // Center-align the quote horizontally
-
-        @media (max-width: 599px) {
-            // Mobile styles
-            max-width: 100%; // Allow the element to take the full width of the viewport
-            text-decoration: none; // Remove underline for mobile
-            text-shadow: none; // Remove text shadow for mobile
-  
-        }
-    }
+.slide{
+    width:100%;
+    flex-shrink: 0;
+    background-color: grey;
 }
-.about {
-    text-align: center;
 
-    h2 {
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    }
-
-    p {
-        max-width: 800px; // Set the maximum width for the p element
-        margin: 0 auto; // Center-align the paragraph horizontally
-
-        @media (max-width: 599px) {
-            // Mobile styles
-            max-width: 100%; // Allow the element to take the full width of the viewport
-            text-decoration: none; // Remove underline for mobile
-            text-shadow: none; // Remove text shadow for mobile
-        }
-    }
+.swarp{
+    width: 100%;
+    overflow: hidden;
+    height: 100px;
 }
-.box{
-    display: flex;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: left;
-    h2{
-        text-align: center;
-        
-    }
+
+.smove{
+    position:relative;
+    top:0;
+    right:0;
+}
+@keyframes slideh{
+    0%{right:0;}
+    15%{right: 0%;}
+    20%{right: 100%;}
+    35%{right: 100%;}
+    40%{right: 200%;}
+    55%{right: 200%;}
+    60%{right: 300%;}
+    75%{right: 300%;}
+    80%{right: 400%;}
+    95%{right: 400%;}
+    100%{right: 0%;}
+}
+.smove{
+    animation: slideh linear 15s infinite;
+}
+.smove:hover{
+    animation-play-state:paused;
 }

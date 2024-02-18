@@ -1,0 +1,23 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.maincontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 337px;
+  max-height: 537px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.form-box {
+  margin: 10px;
+  max-height: -moz-fit-content;
+  max-height: fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  background-color: grey;
+}/*# sourceMappingURL=style.css.map */
