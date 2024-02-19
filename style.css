@@ -1,23 +1,20 @@
+html{
+  font-size: 18px;
+}
 body {
   margin: 0px;
   padding: 0px;
+  background-color: aliceblue;
+  color:rgb(31, 31, 39);
 }
-
-.maincontainer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  max-width: 337px;
-  max-height: 537px;
-  margin: 10px;
-  padding: 10px;
+header{
+  background-image: url(images/IMG_20210607_132948\ \(1\).jpg);
+  background-repeat: no-repeat;
 }
-
-.form-box {
-  margin: 10px;
-  max-height: -moz-fit-content;
-  max-height: fit-content;
-  max-width: -moz-fit-content;
-  max-width: fit-content;
-  background-color: grey;
-}/*# sourceMappingURL=style.css.map */
+main,nav, footer{
+  margin: 5px;
+}
+code{
+  font-size: 0.8rem;
+  font-weight: 800;
+}
