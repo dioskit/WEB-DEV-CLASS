@@ -1,0 +1,25 @@
+$apricot:#9a2c2cce;
+
+html{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    background-color: $apricot;
+}
+h1{
+    text-align: center;
+}
+#game{
+    background-color: green;
+    height:100rem;
+    width:100rem;
+    #ball{
+        background-color: black;
+        height:10rem;
+        width:10rem;
+        border:solid;
+        border-radius: 20px;
+    }
+}
