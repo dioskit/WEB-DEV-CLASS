@@ -1,0 +1,14 @@
+normal mode and insert mode
+normal mode:
+    while in normal mode keyboard keys will act as command and do something different.
+    how too go form normal mode to insert mode 
+    press "i" 
+
+
+hello I'm writing in vim etension
+to move right press h key
+to move left press l
+to move up press k
+to move doem press j
+hellno this whilll $ sign will take you to the end of the current line 0 will take you to the satrt of the line ^ start of the line but to the first non empty character move to here <hello.html> enter [can do some markdown] moving in this mode is pretty hard at first but with time it can help cause i think my typing is gettting better every day. so that here can be no skill is
+iiisueishdfasdfasdfhaius 0 fairfdfhdhddiiii
