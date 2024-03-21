@@ -1,13 +1,3 @@
-<!--this is to learn dom feautures of javascript.
-HTNl css js-->
-<!-- document:
-        -element:
-            html:
-                head>title> text:"this is my html"     
-            body:
-                h1>text:"myheader"
-                p>className+"myparagraph" 
-        -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,18 +7,26 @@ HTNl css js-->
     <style>
         body{
             background-color:black;
-            font-size:2rem; 
+            font-size:rem; 
         }
-        li{
+        .list-items{
             background-color:white;
             color:black;
             margin:0.2rem;
+            list-style-type: none;
         } 
+        ul,h1{
+            margin-right:auto;
+            margin-left:auto;
+            text-align: center;
+            
+        }
         .container{
             border:0.1rem solid white;
-            text-align: center;
             color:white;
-            max-width: 350rem;;
+            max-width: 50rem;
+            margin: 5rem auto auto;
+            
         }
 
     </style>
@@ -37,14 +35,18 @@ HTNl css js-->
     <div class="container">
         <h1 id="main-heading">Favourite Movie Franchse</h1>
         <ul>
-            <li class="list-items">The matrix</li>
+            <li class="list-items">
+                <span>Neo</span>
+                 The matrix</li>
             <li class="list-items">Star Wars</li>
             <li class="list-items">Harry Potter</li>
             <li class="list-items">Lord of the Rings</li>
             <li class="list-items">Marvel</li>
         </ul>
-    </div>   
-    <script src="app.js"></script> 
+    </div>  
+     
+    <script src="parent_child_relation.js"></script> 
+    <!-- <script src="javascript_DOM.js"></script>  -->
 </body>
 </html>
 
